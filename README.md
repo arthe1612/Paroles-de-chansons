@@ -28,5 +28,5 @@ L'application a été testée en conditions réelles sous les versions Android s
 
 Et elle a été testée sous Android 10 grâce à un émulateur.
 
-La page principale de l'application n'est utilisable uniquement en mode portrait.
+La page principale de l'application est utilisable uniquement en mode portrait.
 Mais les paroles (page secondaire) peuvent être affichées en mode paysage.
