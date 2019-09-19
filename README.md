@@ -12,7 +12,7 @@ Application Paroles de chanson développée par Arthur Ringot.
 
 ## Comment utiliser l'application
 
-Le projet Git contiendra un fichier .apk permettant d’installer directement l'application sur un téléphone Android.
+Le projet Git contiendra un fichier .apk (Présent dans le répertoire *FICHIER APK*) permettant d’installer directement l'application sur un téléphone Android.
 A noter qu'il est préférable d'installer l'application sur un téléphone dont la version Android est supérieure à 6.
 
 Néanmoins, 
