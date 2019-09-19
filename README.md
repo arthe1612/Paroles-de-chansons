@@ -12,7 +12,7 @@ Application Paroles de chanson développée par Arthur Ringot.
 
 ## Comment utiliser l'application
 
-Le projet Git contiendra un fichier .apk permettant d’installer directement l'application sur un téléphone Android.
+Le projet Git contiendra un fichier .apk (Présent dans le répertoire *FICHIER APK*) permettant d’installer directement l'application sur un téléphone Android.
 A noter qu'il est préférable d'installer l'application sur un téléphone dont la version Android est supérieure à 6.
 
 Néanmoins, 
@@ -28,5 +28,5 @@ L'application a été testée en conditions réelles sous les versions Android s
 
 Et elle a été testée sous Android 10 grâce à un émulateur.
 
-La page principale de l'application n'est utilisable uniquement en mode portrait.
+La page principale de l'application est utilisable uniquement en mode portrait.
 Mais les paroles (page secondaire) peuvent être affichées en mode paysage.
