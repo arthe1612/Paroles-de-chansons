@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Paroles de chansons</string>
+    <string name="title_activity_song">Paroles</string>
+    <string name="artistEditText">Nom de l\'artiste</string>
+    <string name="songEditText">Nom de la chanson</string>
+    <string name="search">Rechercher</string>
+</resources>
