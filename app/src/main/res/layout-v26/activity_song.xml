@@ -32,8 +32,10 @@
             android:autoSizeMinTextSize="12sp"
             android:autoSizeStepGranularity="2sp"
             android:autoSizeTextType="uniform"
+            android:maxEms="30"
             android:maxLines="2"
-            android:minLines="1"
+            android:minLines="2"
+            android:scrollHorizontally="false"
             android:text=""
             android:textSize="12sp"
             app:autoSizeMaxTextSize="200sp"
@@ -59,9 +61,14 @@
             android:autoSizeTextType="uniform"
             android:maxLines="2"
             android:minLines="1"
+            android:singleLine="false"
             android:text=""
-            android:textSize="12sp"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="24sp"
+            app:autoSizeMaxTextSize="200sp"
+            app:autoSizeMinTextSize="24sp"
+            app:autoSizeStepGranularity="2sp"
+            app:autoSizeTextType="uniform"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.52"
@@ -76,11 +83,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
         <TextView
             android:id="@+id/lyricsView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/text_margin" />
+            android:layout_margin="@dimen/text_margin"
+            android:textSize="18sp" />
     </androidx.core.widget.NestedScrollView>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
