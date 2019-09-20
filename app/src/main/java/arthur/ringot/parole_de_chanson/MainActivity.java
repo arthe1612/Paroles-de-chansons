@@ -69,7 +69,6 @@ public class MainActivity extends AppCompatActivity {
         if(artistNameisValid && songNameisValid){ //vérification des données
             url = baseUrl + artistName.getText() + "/" + songName.getText(); //création de l'url pour utiliser l'api
             url = url.replace(" ", "%20");
-            System.out.println("url : "+ url);
             JsonObjectRequest arrReq = new JsonObjectRequest(Request.Method.GET, url, //exécution d'un http.get en fournissant l'url
                 new Response.Listener<JSONObject>() {
                     @Override
